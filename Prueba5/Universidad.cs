@@ -47,7 +47,7 @@ namespace Prueba5
             }
             else
             {
-                Console.WriteLine("El estudiante NO cumple con el requisito de asistencia.");
+                Console.WriteLine("El estudiante no cumple con el requisito de asistencia.");
             }
         }
     }
