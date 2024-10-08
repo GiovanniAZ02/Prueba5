@@ -4,10 +4,10 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-using static Prueba5.Universidad;
-using static Prueba5.Universidad.Estudiantes;
+using static Tarea.Universidad;
+using static Tarea.Universidad.Estudiantes;
 
-namespace Prueba5
+namespace Tarea
 {
     public class Universidad
     {
