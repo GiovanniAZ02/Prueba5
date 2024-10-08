@@ -47,8 +47,27 @@ namespace Tarea
                     }
 
                 } while (CantidadAsistencia[i] < 0);
+
+                var informa = new Universidad.Estudiantes
+                {
+
+                    Nombre = CantidadNombre[i],
+                    TotalSec = CalculoTotal,
+                    TotalAsist = CantidadAsistencia[i],
+
+                };
+                informa.MostrarInformacion();
+
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Los Nombre Ingresados Fueron: ");
+            foreach (var i in CantidadNombre)
+            {
+                Console.WriteLine(i);
             }
         }
+    }
 }
 
 //C: \Users\T440\Documents\
